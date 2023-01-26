@@ -6,7 +6,7 @@
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $white-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -18,16 +18,17 @@
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
 
-  // If you want to set a background image on the hero section, uncomment these with your custom image
-
-  /* background: url("/src/assets/[your-image].png");
+  background: url("https://res.cloudinary.com/leomiscoding/image/upload/v1672159313/ayodele%20header%20image.jpg");
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
 
+  .hero-text {
+    color: #1e4dbb;
+  }
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;

@@ -1,8 +1,8 @@
 {
   "name": "simplefolio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "A clean, beautiful and responsive portfolio website for Developers!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
